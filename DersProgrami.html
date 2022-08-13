@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ders Programı</title>
+        <link rel="stylesheet" href="/DersProgramı/styles.css">
+
+    </head>
+    <body>
+        <h2>Ders Programı</h2>
+        <p id="headP">Günlere tıklayınız.</p>
+        <div class="tab">
+            <button class="tablinks" onclick="openLesson(event, 'Pazartesi')" id="defaultOpen">Pazartesi</button>
+            <button class="tablinks" onclick="openLesson(event, 'Sali')">Salı</button>
+            <button class="tablinks" onclick="openLesson(event, 'Carsamba')">Çarşamba</button>
+            <button class="tablinks" onclick="openLesson(event, 'Persembe')">Perşembe</button>
+            <button class="tablinks" onclick="openLesson(event, 'Cuma')">Cuma</button>
+            <button class="tablinks" onclick="openLesson(event, 'Cumartesi')">Cumartesi</button>
+            <button class="tablinks" onclick="openLesson(event, 'Pazar')">Pazar</button> 
+        </div>
+    <div id="dersler">
+        <div id="Pazartesi" class="tabcontent">
+            <h3>Pazartesi</h3>
+                <p>14:00 / 15:00 ~ Matematik</p><br><hr>
+                <p>15:10 - 16:10 ~ Türkçe</p><br><hr>
+                <p>16:20 - 17:20 ~ ingilizce</p><br><hr>
+                <p>17:30 - 18:30 ~ Fizik</p> <br><hr>
+        </div>
+        <div id="Sali" class="tabcontent">
+            <h3>Salı</h3>
+            <p>14:00 / 15:00 ~ Matematik</p><br><hr>
+            <p>15:10 - 16:10 ~ Türkçe </p><br><hr>
+            <p>16:20 - 17:20 ~ ingilizce</p><br><hr>
+            <p>17:30 - 18:30 ~ Kimya</p><br><hr>
+        </div>
+        <div id="Carsamba" class="tabcontent">
+            <h3>Çarşamba</h3>
+            <p>14:00 - 15:00 ~ Matematik</p><br><hr>
+            <p>15:10 - 16:10 ~ Türkçe </p><br><hr>
+            <p>16:20 - 17:20 ~ ingilizce</p><br><hr>
+            <p>17:30 - 18:30 ~ Biyoloji</p><br><hr>
+        </div>
+        <div id="Persembe" class="tabcontent">
+            <h3>Perşembe</h3>
+            <p>14:00 - 15:00 ~ Fizik</p><br><hr>
+            <p>15:10 - 16:10 ~ Kimya</p><br><hr>
+            <p>16:20 - 17:20 ~ ingilizce</p><br><hr>
+            <p> 17:30 - 18:30 ~ Biyoloji </p><br><hr>
+        </div>
+        <div id="Cuma" class="tabcontent">
+            <h3>Cuma</h3>
+            <p>14:00 - 15:00 ~ Coğrafya</p><br><hr>
+            <p>15:10 - 16:10 ~ Tarih </p><br><hr>
+            <p>16:20 - 17:20 ~ ingilizce</p><br><hr>
+            <p>17:30 - 18:30 ~ Geometri</p><br><hr>
+        </div>
+        <div id="Cumartesi" class="tabcontent">
+            <h3>Cumartesi</h3>
+            <p>14:00 - 15:00 ~ Coğrafya</p><br><hr>
+            <p>15:10 - 16:10 ~ Geometri </p><br><hr>
+            <p>16:20 - 17:20 ~ ingilizce </p><br><hr>
+            <p>17:30 - 18:30 ~ Tarih </p><br><hr>
+        </div>
+        <div id="Pazar" class="tabcontent">
+            <h3>Pazar</h3>
+            <p>14:00 - 15:00 ~ Din Bilgisi</p><br><hr>
+            <p>15:10 - 16:10 ~ ingilizce</p><br><hr>
+            <p>16:20 - 17:20 ~ Fesefe</p><br><hr>
+        </div>
+    </div>
+        <script src="/DersProgramı/app.js"></script>
+    </body>
+</html>
